@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include sky_custom *.css
+recursive-include sky_custom *.csv
+recursive-include sky_custom *.html
+recursive-include sky_custom *.ico
+recursive-include sky_custom *.js
+recursive-include sky_custom *.json
+recursive-include sky_custom *.md
+recursive-include sky_custom *.png
+recursive-include sky_custom *.py
+recursive-include sky_custom *.svg
+recursive-include sky_custom *.txt
+recursive-exclude sky_custom *.pyc
